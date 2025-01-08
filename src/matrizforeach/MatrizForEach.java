@@ -8,7 +8,7 @@ public class MatrizForEach {
         int nums[][] = new int[3][5];
 
         for (int i = 0; i < 3; i++) //filas
-          for (int j = 0; j < 5; j++)//columnas
+          for (int j = 0; j < 5; j++)//columnas prueba cuatro
             nums[i][j] = (i + 1) * (j + 1);
 
         for (int x[] : nums) {
